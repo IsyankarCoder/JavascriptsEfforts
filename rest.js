@@ -39,3 +39,6 @@ console.log(...str);
 console.log([...str]);
 
 console.log(Array.from(str));
+
+let a = 55;
+console.debug(globalThis.a);
