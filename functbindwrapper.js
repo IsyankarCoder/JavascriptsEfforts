@@ -8,7 +8,7 @@ setTimeout(function () {
     user.sayHi(); 
 });
 
-setTimeout(() => { user.sayHi(); }, 1000);
+setTimeout(() => { user.sayHi(); }, 10000);
 
 
 user = {
