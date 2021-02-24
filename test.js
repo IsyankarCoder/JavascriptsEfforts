@@ -33,4 +33,4 @@ var boundHello = bind(person.hello, person);
 boundHello("ww");
 
 let a = person.hello.bind(person);
-a("tt");
+a("tt"); 
