@@ -5,6 +5,7 @@ function loadScript(src,callback) {
     script.onload = () => callback(null,script);
     script.onerror = () => callback(new Error("hata oldu datlum" + src));
     document.head.append(script);
+    //ok
 }
 
 
